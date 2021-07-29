@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog-Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <h2>02</h2>
+                    <h3>Card Two</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur odio laudantium, delectus hic inventore expedita nihil. Numquam enim, obcaecati facilis, modi illo ullam consequatur cupiditate soluta dolores velit maiores accusantium!</p>
+                    <a href="#">Read More</a>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h2>03</h2>
+                        <h3>Card Three</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur odio laudantium, delectus hic inventore expedita nihil. Numquam enim, obcaecati facilis, modi illo ullam consequatur cupiditate soluta dolores velit maiores accusantium!</p>
+                        <a href="#">Read More</a>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                        <h2>04</h2>
+                        <h3>Card</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur odio laudantium, delectus hic inventore expedita nihil. Numquam enim, obcaecati facilis, modi illo ullam consequatur cupiditate soluta dolores velit maiores accusantium!</p>
+                        <a href="#">Read More</a>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                        <h2>05</h2>
+                        <h3>Card</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur odio laudantium, delectus hic inventore expedita nihil. Numquam enim, obcaecati facilis, modi illo ullam consequatur cupiditate soluta dolores velit maiores accusantium!</p>
+                        <a href="#">Read More</a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+		max: 25,
+		speed: 400,
+        glare: true,
+        "max-glare":1,
+	});
+    </script>    
+    
+</body>
+</html>
